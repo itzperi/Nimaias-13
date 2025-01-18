@@ -71,7 +71,60 @@ import A4 from "./pages/services/A4.tsx";
 import A5 from "./pages/services/A5.tsx";
 import A6 from "./pages/services/A6.tsx";
 import A7 from "./pages/services/A7.tsx";
+import BI1 from "./pages/services/BI1.tsx";
+import BI2 from "./pages/services/BI2.tsx";
+import BI3 from "./pages/services/BI3.tsx";
+import BI4 from "./pages/services/BI4.tsx";
+import BI5 from "./pages/services/BI5.tsx";
+import BI6 from "./pages/services/BI6.tsx";
+import BI7 from "./pages/services/BI7.tsx";
+import BI8 from "./pages/services/BI8.tsx";
 import Peri1 from "./pages/services/Peri1.tsx";
+import BA1 from "./pages/services/BA1.tsx";
+import BA2 from "./pages/services/BA2.tsx";
+import BA3 from "./pages/services/BA3.tsx";
+import BA4 from "./pages/services/BA4.tsx";
+import BA5 from "./pages/services/BA5.tsx";
+import BA6 from "./pages/services/BA6.tsx";
+import BA7 from "./pages/services/BA7.tsx";
+import BA8 from "./pages/services/BA8.tsx";
+import BA9 from "./pages/services/BA9.tsx";
+import BA10 from "./pages/services/BA10.tsx";
+import BA11 from "./pages/services/BA11.tsx";
+import PL1 from "./pages/services/PL1.tsx";
+import PL2 from "./pages/services/PL2.tsx";
+import PL3 from "./pages/services/PL3.tsx";
+import PL4 from "./pages/services/PL4.tsx";
+import WA1 from "./pages/services/WA1.tsx";
+import WA2 from "./pages/services/WA2.tsx";
+import WA3 from "./pages/services/WA3.tsx";
+import WA4 from "./pages/services/WA4.tsx";
+import WA5 from "./pages/services/WA5.tsx";
+import WA6 from "./pages/services/WA6.tsx";
+import SD1 from "./pages/services/SD1.tsx";
+import SD2 from "./pages/services/SD2.tsx";
+import SD3 from "./pages/services/SD3.tsx";
+import SD4 from "./pages/services/SD4.tsx";
+import IA1 from "./pages/services/IA1.tsx";
+import IA2 from "./pages/services/IA2.tsx";
+import IA3 from "./pages/services/IA3.tsx";
+import IA4 from "./pages/services/IA4.tsx";
+import IA5 from "./pages/services/IA5.tsx";
+import BM1 from "./pages/services/IA1.tsx";
+import BM2 from "./pages/services/IA2.tsx";
+import BM3 from "./pages/services/IA3.tsx";
+import CM1 from "./pages/services/IA1.tsx";
+import CM2 from "./pages/services/IA2.tsx";
+import CM3 from "./pages/services/IA3.tsx";
+import CA1 from "./pages/services/IA1.tsx";
+import CA2 from "./pages/services/IA2.tsx";
+import CA3 from "./pages/services/IA3.tsx";
+import D1 from "./pages/services/IA1.tsx";
+import D2 from "./pages/services/IA2.tsx";
+import D3 from "./pages/services/IA3.tsx";
+
+
+
 
 const queryClient = new QueryClient();
 
@@ -118,11 +171,32 @@ const AppRoutes = () => {
           <Route path="/DM14" element={<DM14/>} />
           <Route path="/SM2" element={<SM2/>} />
           <Route path="/SM3" element={<SM3/>} />
+          <Route path="/SD1" element={<SD1/>} />
+          <Route path="/SD2" element={<SD2/>} />
+          <Route path="/SD3" element={<SD3/>} />
+          <Route path="/D1" element={<D1/>} />
+          <Route path="/D2" element={<D2/>} />
+          <Route path="/D3" element={<D3/>} />
+          <Route path="/BM1" element={<BM1/>} />
+          <Route path="/BM2" element={<BM2/>} />
+          <Route path="/BM3" element={<BM3/>} />
+          <Route path="/CM1" element={<CM1/>} />
+          <Route path="/CM2" element={<CM2/>} />
+          <Route path="/CM3" element={<CM3/>} />
+          <Route path="/CA1" element={<CA1/>} />
+          <Route path="/CA2" element={<CA2/>} />
+          <Route path="/CA3" element={<CA3/>} />
+          <Route path="/SD4" element={<SD4/>} />
           <Route path="/IM1" element={<IM1/>} />
           <Route path="/IM2" element={<IM2/>} />
           <Route path="/IM3" element={<IM3/>} />
           <Route path="/IM4" element={<IM4/>} />
           <Route path="/IM5" element={<IM5/>} />
+          <Route path="/IA1" element={<IA1/>} />
+          <Route path="/IA2" element={<IA2/>} />
+          <Route path="/IA3" element={<IA3/>} />
+          <Route path="/IA4" element={<IA4/>} />
+          <Route path="/IA5" element={<IA5/>} />
           <Route path="/TM1" element={<TM1/>} />
           <Route path="/TM2" element={<TM2/>} />
           <Route path="/TM3" element={<TM3/>} />
@@ -132,7 +206,25 @@ const AppRoutes = () => {
           <Route path="/LS2" element={<LS2/>} />
           <Route path="/LS3" element={<LS3/>} />
           <Route path="/LS4" element={<LS4/>} />
+          <Route path="/PL1" element={<PL1/>} />
+          <Route path="/PL2" element={<PL2/>} />
+          <Route path="/PL3" element={<PL3/>} />
+          <Route path="/PL4" element={<PL4/>} />
           <Route path="/Peri" element={<Peri/>} />
+          <Route path="/BI1" element={<BI1/>} />
+          <Route path="/WA2" element={<WA2/>} />
+          <Route path="/WA3" element={<WA3/>} />
+          <Route path="/WA4" element={<WA4/>} />
+          <Route path="/WA5" element={<WA5/>} />
+          <Route path="/WA6" element={<WA6/>} />
+          <Route path="/WA1" element={<WA1/>} />
+          <Route path="/BI2" element={<BI2/>} />
+          <Route path="/BI3" element={<BI3/>} />
+          <Route path="/BI4" element={<BI4/>} />
+          <Route path="/BI5" element={<BI5/>} />
+          <Route path="/BI6" element={<BI6/>} />
+          <Route path="/BI7" element={<BI7/>} />
+          <Route path="/BI8" element={<BI8/>} />
           <Route path="/C1" element={<C1/>} />
           <Route path="/C2" element={<C2/>} />
           <Route path="/C3" element={<C3/>} />
@@ -150,6 +242,18 @@ const AppRoutes = () => {
           <Route path="/A6" element={<A6/>} />
           <Route path="/A7" element={<A7/>} />
           <Route path="/Peri1" element={<Peri1/>} />
+          <Route path="/BA1" element={<BA1/>} />
+          <Route path="/BA2" element={<BA2/>} />
+          <Route path="/BA3" element={<BA3/>} />
+          <Route path="/BA4" element={<BA4/>} />
+          <Route path="/BA5" element={<BA5/>} />
+          <Route path="/BA6" element={<BA6/>} />
+          <Route path="/BA7" element={<BA7/>} />
+          <Route path="/BA8" element={<BA8/>} />
+          <Route path="/BA9" element={<BA9/>} />
+          <Route path="/BA10" element={<BA10/>} />
+          <Route path="/BA11" element={<BA11/>} />
+
       </Routes>
     </AnimatePresence>
   );
